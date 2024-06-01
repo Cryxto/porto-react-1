@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-tab-container {
+  @apply flex h-screen w-full justify-center pt-24 px-4;
+}
+.background-full-screen {
+  @apply absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)];
+}
+
+.nav-tab {
+  @apply rounded-full py-1 px-3 text-sm/6 font-semibold text-white data-[hover]:bg-white/10 focus:outline-none;
+}
+
+.nav-tab-select {
+  @apply focus:outline-none data-[selected]:bg-white/20  data-[selected]:data-[hover]:bg-white/20 data-[focus]:outline-1 data-[focus]:outline-white;
+}
+
+.logo{
+  font-family: "Exo 2", sans-serif;
+}
