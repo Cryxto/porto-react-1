@@ -1,14 +1,14 @@
 import { Navbar } from "./Navbar";
 
-interface Header {
-
-}
+interface Header {}
 
 const Header = () => {
   return (
     <>
-      <header>
-        <Navbar/>
+      <header className="border-slate-300 border bg-red-400">
+        <div className="container">
+          <Navbar />
+        </div>
       </header>
     </>
   );
