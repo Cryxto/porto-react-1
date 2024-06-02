@@ -10,6 +10,7 @@ export default {
       sans: ["Poppins", "sans-serif"],
       serif: ["Poppins", "sans-serif"],
     },
+    
   },
   plugins: [
     plugin(function ({ addBase, theme }) {

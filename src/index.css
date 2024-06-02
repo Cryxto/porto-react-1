@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  @apply text-gray-300
+}
+
 .nav-tab-container {
   @apply flex h-screen w-full justify-center pt-24 px-4;
 }
