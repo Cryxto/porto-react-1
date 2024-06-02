@@ -12,7 +12,7 @@ function App() {
           <div className="background-full-screen"></div>
           <div className="relative z-10 px-5 mx-5 flex flex-col flex-wrap h-full">
             <Header />
-            <main className="flex flex-wrap flex-col my-4 mx-5 flex-grow">
+            <main className="flex flex-wrap flex-col my-4 mx-auto flex-grow">
               <Hero />
             </main>
             <Footer />

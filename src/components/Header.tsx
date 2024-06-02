@@ -5,7 +5,8 @@ interface Header {}
 const Header = () => {
   return (
     <>
-      <header className="border-slate-300 border bg-red-400">
+      {/* <header className="border-slate-300 border bg-red-400"> */}
+      <header>
         <div className="container">
           <Navbar />
         </div>
