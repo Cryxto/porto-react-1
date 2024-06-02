@@ -74,7 +74,7 @@ function Navbar() {
         </div>
 
         {mobileMenuOpen && (
-          <div className="sm:hidden" id="mobile-menu">
+          <div className="sm:hidden absolute bg-gray-700/90 z-50 w-11/12 rounded-lg" id="mobile-menu">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <a
